@@ -60,6 +60,19 @@
         </license>
     </licenses>
 
+    <distributionManagement>
+        <repository>
+            <id>tibudget-repository-release</id>
+            <name>tibudget Release Repository</name>
+            <url>s3://tibudget-maven-repository/release</url>
+        </repository>
+        <snapshotRepository>
+            <id>tibudget-repository-snapshot</id>
+            <name>tibudget Snapshot Repository</name>
+            <url>s3://tibudget-maven-repository/snapshot</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <dependencyManagement>
         <dependencies>
 
