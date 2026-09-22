@@ -126,10 +126,10 @@
     <build>
 
         <extensions>
+            <!-- Enabling the use of FTP -->
             <extension>
-                <groupId>com.github.seahen</groupId>
-                <artifactId>maven-s3-wagon</artifactId>
-                <version>${maven.s3.wagon.version}</version>
+                <groupId>org.apache.maven.wagon</groupId>
+                <artifactId>wagon-ftp</artifactId>
             </extension>
         </extensions>
 
