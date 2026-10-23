@@ -28,7 +28,7 @@
         <android.jar>${env.ANDROID_HOME}/platforms/android-${android.compile.sdk}/android.jar</android.jar>
 
         <!-- Tibu -->
-        <tibu.api.version>0.65</tibu.api.version>
+        <tibu.api.version>0.66</tibu.api.version>
 
         <!-- Plugin versions -->
         <maven.compiler.plugin.version>3.16.0</maven.compiler.plugin.version>
